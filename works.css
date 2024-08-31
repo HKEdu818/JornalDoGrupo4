@@ -1,0 +1,124 @@
+body {
+    height: 610px;
+    background-image: linear-gradient(to bottom right, silver, white, silver);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+
+}
+
+#evento {
+    color: black;
+    width: auto;
+    height: 70px;
+    margin: 1px;
+    padding: 0px 0px 0px 350px;
+    border: 2px solid black;
+    text-align: center;
+    text-align: justify;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, pink, #F230E8, cyan, #F230E8, pink);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+#cor {
+    color: black;
+    width: auto;
+    height: 100px;
+    margin: 1px;
+    padding: 0px 0px 0px 500px;
+    border: 2px solid black;
+    text-align: center;
+    text-align: justify;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, #0060ff, #F230E8, #0060ff);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+#cor2 {
+    color: black;
+    width: auto;
+    height: auto;
+    margin: 1px;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, white, orange, white);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+h1 {
+    color: black;
+    width: auto;
+    height: 100px;
+    margin: 1px;
+    padding: 0px 0px 0px 500px;
+    border: 2px solid black;
+    text-align: center;
+    text-align: justify;
+    background-image: linear-gradient(to bottom right, #F230E8, red, #F230E8);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+h3 {
+    color: black;
+    width: auto;
+    height: auto;
+    margin: 1px;
+    border: 2px solid black;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(to bottom, darkcyan, white, deepskyblue, white, darkcyan);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+h2 {
+    color: black;
+    width: auto;
+    height: auto;
+    margin: 1px;
+    border: 2px solid black;
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, white, #1bfb4f, white);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+h4 {
+    color: black;
+    width: auto;
+    height: auto;
+    margin: 1px;
+    border: 2px solid black;
+    justify-content: center;
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #0060ff, #F230E8, #0060ff);
+    background-attachment: fixed;
+    background-position: 50% 50%;
+}
+
+#imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Ajuste o valor conforme necessário */
+    justify-content: center; /* Opcional: centraliza as imagens */
+    margin: 5px;
+    border: 2px solid black; /* Se desejar manter a borda */
+    background-image: linear-gradient(to bottom right, #0060ff, #F230E8, #0060ff); /* Se desejar manter o fundo */
+    background-attachment: fixed; /* Se desejar manter o fundo fixo */
+    background-position: 50% 50%; /* Se desejar manter o fundo centralizado */
+}
+
+#imagens img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem o contêiner */
+    height: auto; /* Mantém a proporção das imagens */
+}
